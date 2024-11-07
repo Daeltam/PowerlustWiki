@@ -1,16 +1,25 @@
 html{
     justify-content: center;
-    background: linear-gradient(rgba(245,0,10, 90%), rgb(20, 0, 0));
+    background-image: url(./images/blur_background.webp);
+    /*background: linear-gradient(rgba(245,0,10, 90%), rgb(20, 0, 0));*/
+    background-size: cover;
     height: auto;
     width:100vw;
 }
 #header{
     display:flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Helvetica ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    height:10vh;
+    margin-left: 5vh;
+}
+#header > div{
+    background-color: rgba(255,255,255,20%);
+    border-radius: 50px;
 }
 
 #main{
-    background-color: rgba(159, 159, 159, 0.822);
+    background-color: rgba(159, 159, 159, 0.5);
     border-radius: 15px;
     border-style: solid;
     border-color:rgba(255, 0, 10, 50%);
@@ -32,6 +41,11 @@ table{
     font-size: medium;
     background-color: rgba(150, 50, 90, 100%);
 }
+h1{
+    text-align: center;
+    width:100vw;
+}
+h1:hover{cursor:url( to_add_later_on)}
 
 h3{
     border : solid 2px black;

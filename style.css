@@ -73,6 +73,25 @@ footer{
     color:white;
     margin-top: 10px;
 }
+/* index.html specific*/
+#presentation>p{
+    font-size: 17px;
+    text-align: center;
+    font-family: open sans, sans-serif; 
+    font-weight: bold;
+}
+#presentation ul{
+    font-size: 17px;
+    text-align: center;
+    list-style-position: inside;
+    font-family: open sans, sans-serif;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+#index{
+    overflow:scroll;
+}
 
 /* spells.html - specific*/
 .magic h4{
